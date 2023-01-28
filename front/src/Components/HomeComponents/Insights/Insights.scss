@@ -1,0 +1,27 @@
+.insinght_section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  .text_img {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    margin: 150px auto;
+    .img {
+      margin: 0 auto;
+      background-image: url("https://preview.colorlib.com/theme/itlock/assets/img/gallery/about1.jpg.webp");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 40%;
+    }
+    .text {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(30, 44, 168);
+      color: white;
+    }
+  }
+}

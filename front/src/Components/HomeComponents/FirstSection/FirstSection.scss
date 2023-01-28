@@ -1,0 +1,40 @@
+.first_section {
+  background-image: url("https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp");
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .section_text {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    .text {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 640px;
+      button {
+        width: 160px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: transparent;
+        border: 2px white solid;
+        color: white;
+        font-size: 20px;
+      }
+      h1{
+        margin-bottom: 20px;
+        font-size: 80px;
+        color: white;
+      }
+      p{
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+}
